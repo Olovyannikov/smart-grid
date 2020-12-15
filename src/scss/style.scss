@@ -1,0 +1,19 @@
+//vendor (libs / layout)
+
+@import "vendor/normalize.scss";
+@import "vendor/smart-grid.scss";
+@import "vendor/swiper.scss";
+
+//scaffolding (base style for base elements)
+
+@import "general/fonts";
+@import "general/variables";
+@import "general/mixins";
+@import "general/scaffolding";
+@import "general/rem-calc";
+
+//blocks (styles for blocks)
+@import "blocks/header/header";
+@import "blocks/header/navigation";
+
+@import "blocks/main/welcome";

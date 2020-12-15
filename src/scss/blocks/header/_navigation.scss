@@ -1,0 +1,39 @@
+.navigation {
+    &--active {
+        left: 0;
+        z-index: 2;
+    }
+}
+
+.navigation__list {
+    @include list-reset;
+    @include md(display, flex);
+    @include md(justify-content, space-between);
+}
+
+.navigation__item {
+
+}
+
+.navigation__link {
+    transition: .2s;
+    display: block;
+    color: $c-white-0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: rem-calc(18);
+    font-weight: bold;
+    &--current {
+        background: $c-black-0;
+    }
+    &:hover:not(.navigation__link--current) {
+        background: rgba($c-black-0, 0.5);
+    }
+    @include md(font-size, rem-calc(16));
+    @include md(padding-top, 7px);
+    @include md(padding-bottom, 7px);
+    @include md(padding-left, 15px);
+    @include md(padding-right, 15px);
+    @include md(border-radius, 7px);
+}

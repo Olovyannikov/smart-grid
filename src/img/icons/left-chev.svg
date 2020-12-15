@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.76" height="70.75" viewBox="0 0 36.76 70.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        mix-blend-mode: overlay;
+      }
+    </style>
+  </defs>
+  <path id="arrow-next" class="cls-1" d="M1520.38,430.029l-35.35,35.355-1.41-1.414L1517.59,430l-33.97-33.97,1.41-1.415,35.35,35.356-0.02.029Z" transform="translate(-1483.62 -394.625)"/>
+</svg>

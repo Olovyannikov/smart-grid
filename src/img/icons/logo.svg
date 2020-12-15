@@ -1,0 +1,34 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165.031" height="63.031" viewBox="0 0 165.031 63.031">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 17px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+        font-family: Bariol;
+      }
+
+      .cls-2 {
+        fill: #232324;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 35px;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="55.031" y="11.031" width="110" height="28" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1"/>
+      <feFlood result="flood" flood-color="#c34b2a"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="Asingle_Page_Template" data-name="Asingle Page Template" class="cls-1" x="0.031" y="59.031">Asingle Page Template</text>
+  <path id="graph" class="cls-2" d="M379.969,60.969a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1V55.594a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1v5.375Zm7,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1v-16a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1v16Zm7,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1v-34a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1v34Zm7,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1V33.344a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1V60.969Zm7,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1V42.094a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1V60.969Zm7,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1v-16.5a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1v16.5Zm7,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1V39.594a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1V60.969Z" transform="translate(-374.969 -25.969)"/>
+  <text id="Motion" class="cls-3" x="55.031" y="36.031">Motion</text>
+</svg>
