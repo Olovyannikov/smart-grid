@@ -4,6 +4,7 @@ export default () => {
 
     menuBtn.onclick = () => {
         menuBtn.classList.toggle('header__button--active');
-        menuNav.classList.toggle('navigation--active')
+        menuNav.classList.toggle('navigation--active');
+        document.body.classList.toggle('menu--opened');
     }
 }

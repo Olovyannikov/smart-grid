@@ -2,82 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f72ca7d-4193-473d-aced-5b6c9e25e6df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/img/Layer 13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/Layer 13.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/Layer 14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/Layer 14.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/e-4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/highlight.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/icons/icon-clever.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/icons/icon-cloud.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/icons/icon-infinity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/icons/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/icons/twitter-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/w-4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/e-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/e-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/e-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/e-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/icon-clever.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/icon-cloud.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/icon-infinity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/twitter-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/w-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/w-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/w-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/w-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/sections/experts.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/sections/smart.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/sections/tarrifs.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/sections/works.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_experts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_smart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_tarrifs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_works.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/icons/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/icons/icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/slide-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/slide-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/slide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/windows-minimal-4k-ym-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/windows-minimal-4k-ym-1920x1080.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/windows-minimal-back-to-basics-5k-kf-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/windows-minimal-back-to-basics-5k-kf-1920x1080.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/windows-xp-bliss-4k-lu-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/windows-xp-bliss-4k-lu-1920x1080.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/layouts/_svg.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layouts/_svg.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/sections/_index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/_index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/sections/welcome.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/welcome.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/main/_welcome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/main/_welcome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/general/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/general/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/general/scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/general/scaffolding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/vendor/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/vendor/swiper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608016372796</updated>
       <workItem from="1608016373919" duration="20501000" />
-      <workItem from="1608099160147" duration="16087000" />
+      <workItem from="1608099160147" duration="16190000" />
     </task>
     <servers />
   </component>
