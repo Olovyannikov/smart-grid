@@ -173,7 +173,8 @@ input:not([type="range"]) {
             border-color: $c-red-0;
         }
     }
-    &[type="email"]:focus, &[type="email"]:hover {
+    &[type="email"]:focus,
+    &[type="email"]:hover {
         border-color: $c-blue-200;
     }
 }
@@ -193,7 +194,7 @@ select {
     box-sizing: border-box;
     border-radius: 2.5px;
     cursor: pointer;
-    transition: .2s;
+    transition: 0.2s;
     background: url("../img/icons/truechevron.svg") 98% center/11px no-repeat;
     &:focus,
     &:hover {
@@ -250,4 +251,39 @@ textarea {
 
 .container {
     @include wrapper;
+}
+
+.title {
+    font-size: rem-calc(40);
+    line-height: rem-calc(22);
+    color: $c-white-0;
+    letter-spacing: 5px;
+    margin: 0 0 20px;
+    text-align: center;
+    @media (min-width: $break_md) {
+        font-size: rem-calc(60);
+        line-height: rem-calc(24);
+    }
+    &--sub {
+        font-size: rem-calc(16);
+        @media (min-width: $break_md) {
+            font-size: rem-calc(20);
+        }
+    }
+    &--block {
+        font-size: rem-calc(40);
+        margin-bottom: 20px;
+        @media (min-width: $break_md) {
+            font-size: rem-calc(40);
+            line-height: rem-calc(24);
+        }
+    }
+    &--secondary {
+        font-size: rem-calc(20);
+        @media (min-width: $break_md) {
+            font-size: rem-calc(20);
+            line-height: rem-calc(24);
+            letter-spacing: 0;
+        }
+    }
 }

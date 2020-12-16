@@ -2,8 +2,8 @@
     background: $c-red-300;
     position: relative;
     width: 100%;
+    margin-bottom: 50px;
     @media (min-width: $break_md) {
-
         @include folded-corner($c-red-300, 1.8em, 45deg);
     }
 }

@@ -1,0 +1,131 @@
+.tarrifs {
+    position: relative;
+    background: #fff;
+    padding-bottom: 30px;
+    display: none;
+    @media (min-width: $break_md) {
+        display: block;
+    }
+}
+
+.tarrifs hr {
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    position: absolute;
+    z-index: 2;
+}
+
+.tarrifs__wrapper {
+    @include row-flex;
+    justify-content: center;
+    flex-direction: column;
+    @include md(justify-content, space-between);
+    @include md(flex-direction, row);
+    top: -130px;
+    position: relative;
+}
+
+.tarrifs__item {
+    @include size-lg(7.75);
+    @include size-md(4);
+    @include size-md(10);
+    box-shadow: 0 5px 10px 1px rgba(0,0,0,0.15);
+    &--standard {
+        position: absolute;
+        left: 50%;
+        top: -4%;
+        transform: translateX(-50%);
+    }
+}
+
+.tarrif__top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #fff;
+    padding-top: 19px;
+    padding-bottom: 26px;
+    text-align: center;
+}
+
+.tarrif__title {
+    font-size: rem-calc(40);
+    margin: 0 0 23px;
+    color: #616161;
+    &--standard {
+        color: $c-red-300;
+    }
+}
+
+.tarrif__descr {
+    margin: 0;
+    color: #eb4f4e;
+    &--standard {
+        color: #616161;
+    }
+}
+
+.tarrif__features {
+    @include list-reset;
+}
+
+.tarrif__item {
+    background: #f0f0f0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d1d1d1;
+    text-align: center;
+    font-size: rem-calc(18);
+    color: #616161;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tarrif__footer {
+    border-top: 1px solid #fff;
+    background: #616161;
+    padding: 12px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    &--standard {
+        background: $c-red-300;
+    }
+}
+
+.tarrif__cost {
+    font-size: rem-calc(64);
+    color: #fff;
+    &::before {
+        content: '$ ';
+        font-size: rem-calc(32);
+        vertical-align: super;
+    }
+    &::after {
+        content: ' /mo';
+        font-size: rem-calc(25);
+    }
+}
+
+.tarrif__order {
+    color: #616161;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: rem-calc(21);
+    border-radius: 5px;
+    &--standard {
+        color: $c-red-300;
+    }
+}
+
+.tarrif__after {
+    text-align: center;
+    font-size: rem-calc(20);
+    margin: -100px 0 0;
+    color: $c-red-300;
+    a {
+        color: $c-red-300;
+    }
+}

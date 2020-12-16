@@ -1,0 +1,25 @@
+.smart {
+    background: $c-black-0;
+    padding-top: 41px;
+}
+
+.smart__subtitle {
+    color: #d94948;
+    margin-bottom: 40px;
+}
+
+.smart__features {
+    @include list-reset;
+    @include row-flex;
+    justify-content: space-around;
+}
+
+.smart__feature {
+    @include row-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    @include size(20);
+    @include size-md(10);
+    @include size-lg(6);
+}

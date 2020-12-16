@@ -27,4 +27,26 @@ export default () => {
             prevEl: '.welcome-prev',
         },
     });
+    let works = new Swiper(`.works__swiper .swiper-container`, {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination'
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+            },
+            992: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+            }
+        }
+    });
 };

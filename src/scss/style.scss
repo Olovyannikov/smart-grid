@@ -9,11 +9,20 @@
 @import "general/fonts";
 @import "general/variables";
 @import "general/mixins";
-@import "general/scaffolding";
 @import "general/rem-calc";
+@import "general/scaffolding";
 
 //blocks (styles for blocks)
 @import "blocks/header/header";
 @import "blocks/header/navigation";
 
 @import "blocks/main/welcome";
+
+@import "blocks/main/smart";
+@import "blocks/main/features";
+
+@import "blocks/main/experts";
+
+@import "blocks/main/works";
+
+@import "blocks/main/tarrifs";

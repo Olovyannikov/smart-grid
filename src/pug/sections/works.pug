@@ -1,0 +1,34 @@
+section.works
+    .works__container.container
+        h2.works__title.title.title--block Elegant & Genuine
+        h3.works__subtitle.title.title--secondary This is how our works looks like :)
+        .works__swiper
+            .swiper-container
+                .swiper-wrapper
+                    .swiper-slide
+                        picture
+                            source(srcset="img/w-1.webp" type="image/webp")
+                            img(src="img/w-1.png" alt="Our Work")
+                        p.work__desc SMS Clouds
+                    .swiper-slide
+                        picture
+                            source(srcset="img/w-2.webp" type="image/webp")
+                            img(src="img/w-2.png" alt="Our Work")
+                        p.work__desc Blue Apple Soft
+                    .swiper-slide
+                        picture
+                            source(srcset="img/w-3.webp" type="image/webp")
+                            img(src="img/w-3.png" alt="Our Work")
+                        p.work__desc Together Application
+                    .swiper-slide
+                        picture
+                            source(srcset="img/w-4.webp" type="image/webp")
+                            img(src="img/w-4.png" alt="Our Work")
+                        p.work__desc FCBarcelona Club
+                .swiper-pagination
+                .swiper-button-prev
+                    svg(width='17' height='25' fill="#6cc372")
+                        use(href="#left-chev")
+                .swiper-button-next
+                    svg(width='17' height='25' fill="#6cc372")
+                        use(href="#left-chev")
