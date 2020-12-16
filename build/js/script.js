@@ -1186,7 +1186,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _esm
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  var menuBtn = document.querySelector('#menuBtn');\n  var menuNav = document.querySelector('#nav');\n\n  menuBtn.onclick = function () {\n    menuBtn.classList.toggle('header__button--active');\n    menuNav.classList.toggle('navigation--active');\n    document.body.classList.toggle('menu--opened');\n  };\n});\n\n//# sourceURL=webpack:///./src/js/modules/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  var menuBtn = document.querySelector('#menuBtn');\n  var menuNav = document.querySelector('#nav');\n\n  menuBtn.onclick = function () {\n    menuBtn.classList.toggle('header__button--active');\n    menuNav.classList.toggle('navigation--active');\n    document.body.classList.toggle('menu-opened');\n  };\n});\n\n//# sourceURL=webpack:///./src/js/modules/menu.js?");
 
 /***/ }),
 
