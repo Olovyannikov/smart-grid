@@ -2,9 +2,14 @@
     position: relative;
     background: #fff;
     padding-bottom: 30px;
-    display: none;
-    @media (min-width: $break_md) {
-        display: block;
+    .swiper-container {
+        @media (min-width: 900px){
+            overflow: visible;
+            padding-bottom: 130px;
+        }
+        @media (min-width: $break_lg) {
+            padding-bottom: 30px;
+        }
     }
 }
 
@@ -18,26 +23,27 @@
 }
 
 .tarrifs__wrapper {
-    @include row-flex;
-    justify-content: center;
-    flex-direction: column;
-    @include md(justify-content, space-between);
-    @include md(flex-direction, row);
-    top: -130px;
+    margin: 0 auto;
+    overflow: scroll;
+    padding-top: 20px;
     position: relative;
+    @media (min-width: 1200px){
+        overflow: unset;
+        top: -149px;
+        padding-top: 0;
+        align-items: flex-end;
+    }
+    .swiper-slide {
+        display: block;
+    }
 }
 
 .tarrifs__item {
+    @include col;
+    @include size(24);
     @include size-lg(7.75);
-    @include size-md(4);
-    @include size-md(10);
-    box-shadow: 0 5px 10px 1px rgba(0,0,0,0.15);
-    &--standard {
-        position: absolute;
-        left: 50%;
-        top: -4%;
-        transform: translateX(-50%);
-    }
+    @include size-md(20);
+
 }
 
 .tarrif__top {
@@ -123,9 +129,11 @@
 .tarrif__after {
     text-align: center;
     font-size: rem-calc(20);
-    margin: -100px 0 0;
     color: $c-red-300;
     a {
         color: $c-red-300;
+    }
+    @include md-block {
+        margin: -100px 0 0;
     }
 }

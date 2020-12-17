@@ -1,0 +1,53 @@
+.latest {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    .container {
+        position: relative;
+    }
+    .swiper-slide {
+        font-size: rem-calc(21);
+        color: $c-white-0;
+        font-style: italic;
+        display: block;
+        width: 100%;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+        @media (min-width: 1300px) {
+            display: block;
+        }
+        position: absolute;
+        top: 50%;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        background: black;
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .swiper-button-prev {
+        left: -155px;
+    }
+    .swiper-button-next {
+        right: -155px;
+    }
+}
+
+.latest__subtitle {
+    color: $c-black-0;
+    margin-bottom: 26px;
+}
+
+.latest__icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.latest__follow {
+    color: $c-black-0;
+}

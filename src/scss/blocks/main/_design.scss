@@ -1,0 +1,49 @@
+.design {
+    background: $c-black-0;
+}
+
+.design__wrapper {
+    @include row-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.design__copy {
+    color: $c-white-0;
+    font-size: rem-calc(18);
+    a {
+        color: $c-red-300;
+    }
+}
+
+.design__subscribe {
+    @include list-reset;
+    @include row-flex;
+    @include size(3);
+    justify-content: space-between;
+}
+
+.design__item {
+    transition: .5s;
+    border-radius: 3px;
+    background: $c-red-300;
+    a {
+        display: block;
+        width: 28px;
+        height: 30px;
+        background: url("../img/icons/face.png") no-repeat center;
+    }
+    &:nth-child(2) {
+        a {
+            background: url("../img/icons/twitter.png") no-repeat center;
+        }
+    }
+    &:nth-child(3) {
+        a {
+            background: url("../img/icons/rss.png") no-repeat center;
+        }
+    }
+    &:hover {
+        border-radius: 50%;
+    }
+}

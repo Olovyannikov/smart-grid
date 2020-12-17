@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f72ca7d-4193-473d-aced-5b6c9e25e6df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/img/icons/Twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/Twitter.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/face.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/rss.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartgrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/Twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/contacts.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/design.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/latest.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_design.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/main/_latest.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/sections/_index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/_index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/sections/tarrifs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/tarrifs.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/main/_tarrifs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/main/_tarrifs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/main/_works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/main/_works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608016372796</updated>
       <workItem from="1608016373919" duration="20501000" />
-      <workItem from="1608099160147" duration="16920000" />
+      <workItem from="1608099160147" duration="17570000" />
+      <workItem from="1608188238118" duration="9317000" />
     </task>
     <servers />
   </component>

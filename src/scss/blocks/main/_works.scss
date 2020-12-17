@@ -1,7 +1,10 @@
 .works {
     padding-top: 41px;
-    padding-bottom: 180px;
     background: #f0f0f0;
+    padding-bottom: 40px;
+    @include md-block {
+        padding-bottom: 200px;
+    }
 }
 
 .works__title {

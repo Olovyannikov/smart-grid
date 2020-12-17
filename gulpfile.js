@@ -242,6 +242,7 @@ function watchFiles(params) {
     gulp.watch([path.watch.css], { usePolling: true }, css);
     gulp.watch([path.watch.js], js);
     gulp.watch([path.watch.img], images);
+    gulp.watch('./smartgrid.js', grid);
 }
 
 function clean(params) {
@@ -249,31 +250,8 @@ function clean(params) {
 }
 
 function grid(callback) {
-    let settings = {
-        outputStyle: 'scss',
-        columns: 24,
-        offset: '10px',
-        mobileFirst: true,
-        container: {
-            maxWidth: '950px',
-            fields: '15px'
-        },
-        breakPoints: {
-            lg: {
-                width: '1200px',
-            },
-            md: {
-                width: '992px',
-                fields: '5px'
-            },
-            sm: {
-                width: '720px'
-            },
-            xs: {
-                width: '576px'
-            }
-        },
-    };
+	 delete require.cache[require.resolve('./smartgrid.js')]; 
+    let settings = require('./smartgrid.js');
     smartGrid(source_folder + '/scss/vendor', settings);
     callback();
 }

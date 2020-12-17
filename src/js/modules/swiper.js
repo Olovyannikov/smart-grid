@@ -49,4 +49,10 @@ export default () => {
             }
         }
     });
+    let twitter = new Swiper(`.latest__container .swiper-container`, {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        },
+    });
 };

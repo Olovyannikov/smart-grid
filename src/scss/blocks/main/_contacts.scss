@@ -1,0 +1,30 @@
+.contacts {
+    position: relative;
+    text-align: center;
+}
+
+.contacts__modal {
+    padding-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include size(16)
+    @include size-lg(8);
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.contacts__title {
+    font-size: rem-calc(30);
+}
+
+.contacts__email {
+    color: $c-red-300;
+    font-size: rem-calc(20);
+}
+
+.contacts__address {
+    color: $c-red-300;
+    font-size: rem-calc(20);
+}
